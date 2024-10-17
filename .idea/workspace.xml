@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c5762f8-eb85-4e24-84a3-65e5891409f5" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     "Python.Main.executor": "Run",
     "Python.te.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "modify__file__name",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -162,7 +161,7 @@
       <workItem from="1729077928942" duration="6968000" />
       <workItem from="1729093336929" duration="3116000" />
       <workItem from="1729177880774" duration="1348000" />
-      <workItem from="1729181579592" duration="309000" />
+      <workItem from="1729181579592" duration="675000" />
     </task>
     <servers />
   </component>
