@@ -1,11 +1,10 @@
 import pyautogui
 import time
-import OpenAndCloseDouyin as oc
+import open_close_douyin as oc
 import schedule
 import random
-from datetime import datetime
 
-from GetTime import get_time
+import get_time
 
 
 def get_position():
@@ -59,7 +58,7 @@ def schedule_random_task():
     my_task()
 def my_task():
 
-    print("任务执行时间:", get_time())
+    print("任务执行时间:", get_time.get_time())
     oc.open_douyin()
     time.sleep(3)
 
@@ -68,6 +67,7 @@ def my_task():
 
     oc.close_douyin()
     # 在这里添加你想要执行的任务代码
+    # if 任务执行成功 次数+1
     print("任务执行完成")
 if __name__ == '__main__':
     # getPosition()
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     # oc.close_douyin()
 
     time0 = '00:00'
-    time1 = '23:32'
+    time1 = '00:11'
     schedule.every().day.at(time1).do(schedule_random_task)
 
     print("定时任务已启动...")
