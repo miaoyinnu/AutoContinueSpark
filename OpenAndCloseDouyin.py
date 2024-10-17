@@ -11,7 +11,7 @@ def open_douyin():
 
     # 打开抖音客户端
     os.startfile(douyin_path)
-    print(fr"抖音客户端已启动。{GetTime.gettime()}")
+    print(fr"抖音客户端已启动。{GetTime.get_time()}")
 
 def close_douyin():
     # 假设抖音客户端的进程名称为 "Douyin.exe" (根据实际情况修改)
